@@ -11,17 +11,17 @@
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: healthedata1-sandbox
-extension:
-  - url: >-
-      http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
-    valueCode: trial-use
-  - url: 'http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm'
-    valueInteger: 2
+# extension:
+  # - url: >-
+  #     http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+  #   valueCode: trial-use
+  # - url: 'http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm'
+  #   valueInteger: 2
 canonical: http://www.fhir.org/guides/healthedata1-sandbox
 version: 0.1.0
 name: HealthEData_1Sandbox
 title: Health eData 1 Sandbox
-status: active
+status: draft
 publisher:
   name: Health eData Inc
 contact:
