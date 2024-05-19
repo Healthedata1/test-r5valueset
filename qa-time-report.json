@@ -1,0 +1,144 @@
+{
+  "date" : "Sun, 19 May, 2024 06:52:16 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-healthedata1-sandbox.json",
+      "size" : 4110,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 80,
+          "length" : 29
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 80,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 80,
+          "length" : 124
+        },
+        {
+          "activity" : "validate",
+          "start" : 82,
+          "length" : 1150
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 83,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 83,
+          "length" : 103
+        },
+        {
+          "activity" : "generate2",
+          "start" : 85,
+          "length" : 95
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 112,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 116,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "input/examples/testR5-valueset.json",
+      "size" : 862,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 56
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 80,
+          "length" : 190
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 11
+        },
+        {
+          "activity" : "generate1",
+          "start" : 83,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 85,
+          "length" : 32
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/StructureDefinition-test-r5-valueset.json",
+      "size" : 1200,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 80,
+          "length" : 57
+        },
+        {
+          "activity" : "load",
+          "start" : 80,
+          "length" : 55
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 80,
+          "length" : 41
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 80,
+          "length" : 135
+        },
+        {
+          "activity" : "validate",
+          "start" : 80,
+          "length" : 1495
+        },
+        {
+          "activity" : "generate1",
+          "start" : 83,
+          "length" : 105
+        },
+        {
+          "activity" : "generate2",
+          "start" : 85,
+          "length" : 2829
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 112,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 116,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}

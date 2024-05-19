@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://hl7.org/cda/stds/core/ValueSet/CDARoleCode,2.0.0-sd,draft,,CDARoleCode,CDARoleCode,"A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.","StructureDefinition/test-r5-valueset","THO (V3)"

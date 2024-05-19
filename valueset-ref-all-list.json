@@ -1,0 +1,30 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/cda/stds/core/ValueSet/CDARoleCode",
+      "version" : "2.0.0-sd",
+      "status" : "draft",
+      "name" : "CDARoleCode",
+      "title" : "CDARoleCode",
+      "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"],
+      "uses" : {
+      },
+      "StructureDefinition-test-r5-valueset.html" : "Test R5 ValueSet"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.20"],
+      "sources" : ["2.16.840.1.113883.4.642.3.20"],
+      "uses" : {
+      },
+      "StructureDefinition-test-r5-valueset.html" : "Test R5 ValueSet"
+    }
+  ]
+}

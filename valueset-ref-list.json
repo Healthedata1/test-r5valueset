@@ -1,0 +1,16 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/cda/stds/core/ValueSet/CDARoleCode",
+      "version" : "2.0.0-sd",
+      "status" : "draft",
+      "name" : "CDARoleCode",
+      "title" : "CDARoleCode",
+      "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"],
+      "uses" : {
+      },
+      "StructureDefinition-test-r5-valueset.html" : "Test R5 ValueSet"
+    }
+  ]
+}

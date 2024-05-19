@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Basic xmlns="http://hl7.org/fhir">
+  <id value="test"/>
+  <meta>
+    <extension url="http://hl7.org/fhir/StructureDefinition/instance-name">
+      <valueString value="Test R5 Basic Example"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/instance-description">
+      <valueMarkdown value="This is a Test R5 Basic example for the *Test R5 Basic Profile*"/>
+    </extension>
+    <profile value="http://www.fhir.org/guides/healthedata1-sandbox/StructureDefinition/test-r5-valueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Basic</b><a name="test"> </a><a name="hctest"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourceBasic &quot;test&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-test-r5-valueset.html">Test R5 ValueSet</a></p></div><p><b>code</b>: Diagnostics or therapeutics unit <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.5.0/CodeSystem-v3-RoleCode.html">RoleCode</a>#DX)</span></p></div>
+  </text>
+  <code>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <code value="DX"/>
+      <display value="Diagnostics or therapeutics unit"/>
+    </coding>
+  </code>
+</Basic>

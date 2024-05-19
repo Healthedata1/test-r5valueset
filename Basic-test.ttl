@@ -1,0 +1,37 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.fhir.org/guides/healthedata1-sandbox/Basic/test> a fhir:Basic ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "test"] ; # 
+  fhir:meta [
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/instance-name"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "Test R5 Basic Example" ]
+     ] [
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/instance-description"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "This is a Test R5 Basic example for the *Test R5 Basic Profile*" ]
+     ] ) ;
+     fhir:profile ( [
+       fhir:v "http://www.fhir.org/guides/healthedata1-sandbox/StructureDefinition/test-r5-valueset"^^xsd:anyURI ;
+       fhir:link <http://www.fhir.org/guides/healthedata1-sandbox/StructureDefinition/test-r5-valueset>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Basic</b><a name=\"test\"> </a><a name=\"hctest\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceBasic &quot;test&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-test-r5-valueset.html\">Test R5 ValueSet</a></p></div><p><b>code</b>: Diagnostics or therapeutics unit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#DX)</span></p></div>"
+  ] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "DX" ] ;
+       fhir:display [ fhir:v "Diagnostics or therapeutics unit" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

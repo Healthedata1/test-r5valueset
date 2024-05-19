@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "healthedata1-sandbox",
+    "type" : "ImplementationGuide",
+    "url" : "http://www.fhir.org/guides/healthedata1-sandbox/ImplementationGuide/healthedata1-sandbox",
+    "version" : "0.1.0",
+    "name" : "HealthEData_1Sandbox"
+  },
+  {
+    "id" : "test-r5-valueset",
+    "type" : "StructureDefinition",
+    "url" : "http://www.fhir.org/guides/healthedata1-sandbox/StructureDefinition/test-r5-valueset",
+    "version" : "0.1.0",
+    "name" : "TestR5ValueSet"
+  }
+]
