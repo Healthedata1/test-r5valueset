@@ -1,0 +1,168 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "healthedata1-sandbox",
+  "url": "http://www.fhir.org/guides/healthedata1-sandbox/ImplementationGuide/healthedata1-sandbox",
+  "version": "0.1.0",
+  "name": "HealthEData_1Sandbox",
+  "title": "Health eData 1 Sandbox",
+  "status": "draft",
+  "publisher": "Health eData Inc",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:ehaas@healthedatainc.com"
+        }
+      ]
+    }
+  ],
+  "description": "This is a **Healthedata1** sandbox for creation of resources and examples",
+  "packageId": "healthedata1-sandbox",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "id": "vsac",
+      "packageId": "us.nlm.vsac",
+      "uri": "http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac",
+      "version": "0.3.0"
+    },
+    {
+      "packageId": "hl7.cda.us.ccda",
+      "uri": "http://hl7.org/cda/stds/core/ImplementationGuide/hl7.cda.uv.core",
+      "version": "3.0.0",
+      "id": "hl7_cda_us_ccda"
+    }
+  ],
+  "definition": {
+    "grouping": [
+      {
+        "id": "TestExamples",
+        "name": "Test Examples",
+        "description": "Examples for Testing Stuff Out!!!"
+      }
+    ],
+    "resource": [
+      {
+        "reference": {
+          "reference": "Basic/test"
+        },
+        "description": "This is a Test R5 Basic example for the *Test R5 Basic Profile*",
+        "name": "Test R5 Basic Example",
+        "exampleCanonical": "http://www.fhir.org/guides/healthedata1-sandbox/StructureDefinition/test-r5-valueset",
+        "groupingId": "TestExamples"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/test-r5-valueset"
+        },
+        "description": "Test R5 ValueSet",
+        "exampleBoolean": false,
+        "name": "Test R5 ValueSet"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+              "valueCode": "draft"
+            }
+          ]
+        },
+        {
+          "nameUrl": "guidance.html",
+          "title": "Guidance",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "downloads.html",
+          "title": "Downloads",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "ImplementationGuide.html",
+          "title": "ImplementationGuide Resource",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "changes.html",
+          "title": "Change Log",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2020+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "CI Build"
+      },
+      {
+        "code": "path-expansion-params",
+        "value": "../../input/_resources/exp-params.json"
+      },
+      {
+        "code": "show-inherited-invariants",
+        "value": "true"
+      },
+      {
+        "code": "usage-stats-opt-out",
+        "value": "false"
+      },
+      {
+        "code": "path-output",
+        "value": "output"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/resources"
+      },
+      {
+        "code": "path-resource",
+        "value": "fsh-generated/resources"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/intro-notes"
+      },
+      {
+        "code": "path-liquid",
+        "value": "input/images/liquid"
+      },
+      {
+        "code": "excludexml",
+        "value": "true"
+      },
+      {
+        "code": "excludejson",
+        "value": "false"
+      },
+      {
+        "code": "excludettl",
+        "value": "true"
+      },
+      {
+        "code": "excludemap",
+        "value": "true"
+      },
+      {
+        "code": "propagate-status",
+        "value": "true"
+      }
+    ]
+  }
+}
