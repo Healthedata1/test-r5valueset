@@ -1,0 +1,28 @@
+{
+    "resourceType": "Basic",
+    "id": "test",
+    "code": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                "code": "DX",
+                "display": "Diagnostics or therapeutics unit"
+            }
+        ]
+    },
+    "meta": {
+        "profile": [
+            "http://www.fhir.org/guides/healthedata1-sandbox/StructureDefinition/test-r5-valueset"
+        ],
+        "extension": [
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/instance-name",
+                "valueString": "Test R5 Basic Example"
+            },
+            {
+                "url": "http://hl7.org/fhir/StructureDefinition/instance-description",
+                "valueMarkdown": "This is a Test R5 Basic example for the *Test R5 Basic Profile*"
+            }
+        ]
+    }
+}

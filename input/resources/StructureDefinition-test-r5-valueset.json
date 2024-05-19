@@ -1,0 +1,39 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "test-r5-valueset",
+    "url": "http://www.fhir.org/guides/healthedata1-sandbox/StructureDefinition/test-r5-valueset",
+    "version": "4.0.1",
+    "name": "TestR5ValueSet",
+    "title": "Test R5 ValueSet",
+    "status": "active",
+    "date": "2024-05-18",
+    "description": "Test R5 ValueSet",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Basic",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Basic",
+    "derivation": "constraint",
+    "differential": {
+        "element": [
+            {
+                "id": "Basic",
+                "path": "Basic"
+            },
+            {
+                "id": "Basic.code",
+                "path": "Basic.code",
+                "type": [
+                    {
+                        "code": "CodeableConcept"
+                    }
+                ],
+                "binding": {
+                    "strength": "required",
+                    "description": "C-CDA author provenance and role value sets.",
+                    "valueSet": "http://hl7.org/cda/stds/core/ValueSet/CDARoleCode"
+                }
+            }
+        ]
+    }
+}
